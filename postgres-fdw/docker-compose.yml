@@ -1,4 +1,24 @@
 version: '3.1'
 services:
 
+  postgres_fdw_1:
+    image: postgis/postgis:12-3.0
+    container_name: postgres_fdw_1
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
+    ports:
+      - 5432:5432
 
+  postgres_fdw_2:
+    image: postgis/postgis:12-3.0
+    container_name: postgres_fdw_2
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
+    ports:
+      - 5433:5432

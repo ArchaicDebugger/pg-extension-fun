@@ -1,0 +1,73 @@
+1|Sgt. Pepper's Lonely Hearts Club Band|The Beatles|1967|39:52|Rock
+2|Abbey Road|The Beatles|1969|47:00|Rock
+3|Dark Side of the Moon|Pink Floyd|1973|42:49|Rock
+4|Back in Black|AC/DC|1980|42:11|Rock
+5|Thriller|Michael Jackson|1982|42:19|Pop
+6|Graceland|Paul Simon|1986|43:39|Rock
+7|OK Computer|Radiohead|1997|53:27|Alternative Rock
+8|Different Class|Pulp|1995|51:11|Britpop
+9|Automatic for the People|R.E.M.|1992|48:55|Alternative Rock
+10|Is This It|The Strokes|2001|36:10|Alternative Rock
+11|Black Holes and Revelations|Muse|2006|45:02|Alternative Rock
+12|Kind of Blue|Miles Davis|1959|45:26|Jazz
+13|A Love Supreme|John Coltrane|1965|33:01|Jazz
+14|Ella and Louis|Ella Fitzgerald and Louis Armstrong|1956|54:23|Jazz
+15|The Shape of Jazz to Come|Ornette Coleman|1959|37:08|Jazz
+16|Aja|Steely Dan|1977|39:58|Jazz Rock
+17|Time Out|Dave Brubeck Quartet|1959|38:52|Jazz
+18|Head Hunters|Herbie Hancock|1973|41:57|Jazz Fusion
+19|Bitches Brew|Miles Davis|1970|94:16|Jazz Fusion
+20|The Köln Concert|Keith Jarrett|1975|66:50|Jazz
+21|Kind of New|Jamie Saft Trio|2014|48:22|Jazz
+22|Vespertine|Björk|2001|55:17|Experimental
+23|Mezzanine|Massive Attack|1998|63:54|Trip Hop
+24|Homogenic|Björk|1997|44:22|Experimental
+25|Discovery|Daft Punk|2001|60:02|Electronic
+26|Play|Moby|1999|63:57|Electronic
+27|Dig Your Own Hole|The Chemical Brothers|1997|58:16|Electronic
+28|Fat of the Land|The Prodigy|1997|52:08|Electronic
+29|Protection|Massive Attack|1994|49:46|Trip Hop
+30|The White Stripes|The White Stripes|1999|43:44|Garage Rock
+31|Rage Against the Machine|Rage Against the Machine|1992|52:11|Rock
+32|Bleach|Nirvana|1989|42:38|Alternative Rock
+33|Appetite for Destruction|Guns N' Roses|1987|53:51|Rock
+34|Revolver|The Beatles|1966|35:01|Rock
+35|In Utero|Nirvana|1993|41:07|Alternative Rock
+36|Disintegration|The Cure|1989|71:24|Alternative Rock
+37|Hysteria|Def Leppard|1987|62:31|Rock
+38|Purple Rain|Prince|1984|43:49|Rock
+39|Ten|Pearl Jam|1991|53:22|Grunge
+40|London Calling|The Clash|1979|65:08|Punk Rock
+41|Revolver|The Beatles|1966|34:43|Rock
+42|Abbey Road|The Beatles|1969|47:00|Rock
+43|The White Album|The Beatles|1968|1:33:41|Rock
+45|Parallel Lines|Blondie|1978|33:24|Punk Rock
+46|Ziggy Stardust and the Spiders from Mars|David Bowie|1972|38:19|Glam Rock
+47|London Calling|The Clash|1979|65:06|Punk Rock
+48|Born to Run|Bruce Springsteen|1975|39:28|Rock
+49|Blue|Joni Mitchell|1971|36:07|Folk Rock
+50|Songs in the Key of Life|Stevie Wonder|1976|104:55|Soul/Funk
+51|Talking Heads: 77|Talking Heads|1977|38:10|Art Punk
+52|Bad|Michael Jackson|1987|48:18|Pop
+53|Document|R.E.M.|1987|39:31|Alternative Rock
+54|Straight Outta Compton|N.W.A|1988|60:00|Hip Hop
+55|Blood Sugar Sex Magik|Red Hot Chili Peppers|1991|1:13:44|Rock
+56|Is This It|The Strokes|2001|36:12|Rock
+57|Automatic for the People|R.E.M.|1992|48:58|Alternative Rock
+58|Born to Run|Bruce Springsteen|1975|39:27|Rock
+59|Kind of Blue|Miles Davis|1959|45:44|Jazz
+60|Nevermind|Nirvana|1991|49:01|Alternative Rock
+61|Back to Black|Amy Winehouse|2006|34:54|Soul
+62|The Bends|Radiohead|1995|48:29|Alternative Rock
+63|Franz Ferdinand|Franz Ferdinand|2004|38:38|Rock
+64|Parallel Lines|Blondie|1978|39:07|Punk
+65|Ten|Pearl Jam|1991|53:21|Rock
+66|Odelay|Beck|1996|55:10|Rock
+67|Pinkerton|Weezer|1996|34:05|Rock
+68|In Utero|Nirvana|1993|41:11|Rock
+69|White Blood Cells|The White Stripes|2001|40:49|Rock
+70|Grace|Jeff Buckley|1994|50:12|Folk
+71|Carrie & Lowell|Sufjan Stevens|2015|44:06|Folk
+72|I Never Learn|Lykke Li|2014|33:32|Pop
+73|Artpop|Lady Gaga|2013|59:04|Pop
+74|St. Vincent|St. Vincent|2014|39:57|Indie

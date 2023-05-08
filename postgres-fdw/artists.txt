@@ -1,0 +1,50 @@
+1|The Beatles|United Kingdom|1960|Rock
+2|The Rolling Stones|United Kingdom|1962|Rock
+3|Pink Floyd|United Kingdom|1965|Rock
+4|Led Zeppelin|United Kingdom|1968|Rock
+5|Queen|United Kingdom|1970|Rock
+6|The Who|United Kingdom|1964|Rock
+7|The Clash|United Kingdom|1976|Rock
+8|The Kinks|United Kingdom|1964|Rock
+9|The Police|United Kingdom|1977|Rock
+10|The Cure|United Kingdom|1976|Rock
+11|The Smiths|United Kingdom|1982|Rock
+12|The Jam|United Kingdom|1972|Rock
+13|The Stone Roses|United Kingdom|1983|Rock
+14|Oasis|United Kingdom|1991|Rock
+15|Red Hot Chili Peppers|United States|1983|Rock
+16|The Doors|United States|1965|Rock
+17|Black Sabbath|United Kingdom|1968|Rock
+18|Neil Young|Canada|1966|Rock
+19|Foo Fighters|United States|1994|Rock
+20|Rage Against the Machine|United States|1991|Rock
+21|The White Stripes|United States|1997|Rock
+22|The Strokes|United States|1998|Rock
+23|The Velvet Underground|United States|1964|Rock
+24|America|United States|1970|Rock
+25|Eric Clapton|United Kingdom|1963|Rock
+26|Stevie Ray Vaughan|United States|1976|Rock
+27|Duke Ellington|United States|1923|Jazz
+28|Miles Davis|United States|1944|Jazz
+29|John Coltrane|United States|1945|Jazz
+30|Chet Baker|United States|1949|Jazz
+31|Jack Johnson|United States|2000|Acoustic
+32|John Mayer|United States|1998|Blues
+33|B.B. King|United States|1947|Blues
+34|Moby|United States|1982|Electronic
+35|Daft Punk|France|1993|Electronic
+36|The Chemical Brothers|United Kingdom|1989|Electronic
+37|Fatboy Slim|United Kingdom|1988|Electronic
+38|The Prodigy|United Kingdom|1990|Electronic
+39|Zero 7|United Kingdom|1997|Electronic
+40|Massive Attack|United Kingdom|1988|Electronic
+41|UNKLE|United Kingdom|1994|Electronic
+42|U2|Ireland|1976|Rock
+43|Kings of Leon|United States|1999|Rock
+44|The Killers|United States|2001|Rock
+45|The Black Keys|United States|2001|Rock
+46|Hozier|Ireland|2008|Rock
+47|The Lumineers|United States|2005|Rock
+48|Blink-182|United States|1992|Rock
+49|The Offspring|United States|1984|Rock
+50|The Smashing Pumpkins|United States|1988|Rock
