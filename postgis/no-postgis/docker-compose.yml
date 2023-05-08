@@ -1,0 +1,13 @@
+version: '3.1'
+services:
+
+  plain_old_postgres:
+    image: postgis/postgis:12-3.0
+    container_name: postgis_fun
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
+    ports:
+      - 5432:5432
