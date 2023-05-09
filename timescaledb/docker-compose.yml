@@ -1,0 +1,13 @@
+version: '3.1'
+services:
+
+  timescaledb:
+    image: timescale/timescaledb:latest-pg12
+    container_name: timescale_fun
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_DB: postgres
+    ports:
+      - "5432:5432"

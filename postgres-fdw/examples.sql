@@ -45,4 +45,4 @@ WHERE name NOT IN (
 );
 
 INSERT INTO public.vinyls (id, title, artist, year, duration_minutes, genre)
-VALUES (75, 'There Is Nothing Left To Lose', 'Foo Fighters', 1999, '48:23', 'Rock');
+VALUES (80, 'In Between Dreams', 'Jack Johnson', 2005, '38:43', 'Acoustic')
