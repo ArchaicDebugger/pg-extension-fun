@@ -1,14 +1,14 @@
 #connect to postgres
 psql postgresql://postgres:postgres@localhost:5432/postgres -c \
-    "DROP DATABASE IF EXISTS postgis_fun"
+    "DROP DATABASE IF EXISTS pg_extension_fun"
 
 psql postgresql://postgres:postgres@localhost:5432/postgres -c \
-    "CREATE DATABASE postgis_fun"
+    "CREATE DATABASE pg_extension_fun"
 
-psql postgresql://postgres:postgres@localhost:5432/postgis_fun -c \
+psql postgresql://postgres:postgres@localhost:5432/pg_extension_fun -c \
     "CREATE EXTENSION postgis"
 
-psql postgresql://postgres:postgres@localhost:5432/postgis_fun -c \
+psql postgresql://postgres:postgres@localhost:5432/pg_extension_fun -c \
     "CREATE TABLE geoname ( \
         geonameid INT, \
         name VARCHAR(200), \
@@ -31,12 +31,12 @@ psql postgresql://postgres:postgres@localhost:5432/postgis_fun -c \
         moddate DATE \
     );"
 
-psql postgresql://postgres:postgres@localhost:5432/postgis_fun -c \
+psql postgresql://postgres:postgres@localhost:5432/pg_extension_fun -c \
     "\copy geoname (geonameid, name, asciiname, alternatenames, latitude, longitude, fclass, fcode, \
         country, cc2, admin1, admin2, admin3, admin4, population, elevation, gtopo30, timezone, moddate) \
     FROM 'data/allCountries_no_comments.txt' null AS '' \
     WHERE country IN ('US', 'CA', 'GB', 'IT', 'AL', 'NZ', 'JP', 'BR');"
 
-psql postgresql://postgres:postgres@localhost:5432/postgis_fun -c \
+psql postgresql://postgres:postgres@localhost:5432/pg_extension_fun -c \
     "ALTER TABLE ONLY geoname \
     ADD CONSTRAINT pk_geonameid PRIMARY KEY (geonameid);"

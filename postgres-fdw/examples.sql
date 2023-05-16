@@ -1,8 +1,8 @@
--- Active: 1677054367051@@127.0.0.1@5432@hall_of_fame@public
+-- Active: 1677054367051@@127.0.0.1@5432@pg_extension_fun@public
 -- connect via fdw
 CREATE SERVER IF NOT EXISTS vinyl_store
 FOREIGN DATA WRAPPER postgres_fdw
-OPTIONS (host 'postgres_fdw_2', dbname 'vinyl_store', port '5432');
+OPTIONS (host 'postgres_fdw_2', dbname 'pg_extension_fun', port '5432');
 
 CREATE USER MAPPING FOR postgres
 SERVER vinyl_store
@@ -45,4 +45,4 @@ WHERE name NOT IN (
 );
 
 INSERT INTO public.vinyls (id, title, artist, year, duration_minutes, genre)
-VALUES (80, 'In Between Dreams', 'Jack Johnson', 2005, '38:43', 'Acoustic')
+VALUES (80, 'In Between Dreams', 'Jack Johnson', 2005, '38:43', 'Acoustic');

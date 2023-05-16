@@ -1,4 +1,4 @@
--- Active: 1677054367051@@127.0.0.1@5432@postgis_fun
+-- Active: 1677054367051@@127.0.0.1@5432@pg_extension_fun
 -- Make sure database is selected
 /*
                                                                                                                                                                         1) Earth is not a plane but a sphere

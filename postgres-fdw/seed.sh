@@ -1,14 +1,14 @@
-#connect to postgres
+#CREATE FIRST INSTANCE WITH ARTISTS
 psql postgresql://postgres:postgres@localhost:5432/postgres -c \
-    "DROP DATABASE IF EXISTS hall_of_fame"
+    "DROP DATABASE IF EXISTS pg_extension_fun"
 
 psql postgresql://postgres:postgres@localhost:5432/postgres -c \
-    "CREATE DATABASE hall_of_fame"
+    "CREATE DATABASE pg_extension_fun"
 
-psql postgresql://postgres:postgres@localhost:5432/hall_of_fame -c \
+psql postgresql://postgres:postgres@localhost:5432/pg_extension_fun -c \
     "CREATE EXTENSION postgres_fdw"
 
-psql postgresql://postgres:postgres@localhost:5432/hall_of_fame -c \
+psql postgresql://postgres:postgres@localhost:5432/pg_extension_fun -c \
     "CREATE TABLE artists ( \
         id SERIAL PRIMARY KEY, \
         name VARCHAR(255) NOT NULL, \
@@ -17,20 +17,24 @@ psql postgresql://postgres:postgres@localhost:5432/hall_of_fame -c \
         main_genre VARCHAR(255) NOT NULL \
     )"
 
-psql postgresql://postgres:postgres@localhost:5432/hall_of_fame -c \
+psql postgresql://postgres:postgres@localhost:5432/pg_extension_fun -c \
     "\copy artists(id, name, country, prominence_year, main_genre) \
     FROM 'artists.txt' (DELIMITER('|'));"
 
-psql postgresql://postgres:postgres@localhost:5433/postgres -c \
-    "DROP DATABASE IF EXISTS vinyl_store"
+
+
+# CREATE SECOND INSTANCE WITH VINYLS
 
 psql postgresql://postgres:postgres@localhost:5433/postgres -c \
-    "CREATE DATABASE vinyl_store"
+    "DROP DATABASE IF EXISTS pg_extension_fun"
 
-psql postgresql://postgres:postgres@localhost:5433/vinyl_store -c \
+psql postgresql://postgres:postgres@localhost:5433/postgres -c \
+    "CREATE DATABASE pg_extension_fun"
+
+psql postgresql://postgres:postgres@localhost:5433/pg_extension_fun -c \
     "CREATE EXTENSION postgres_fdw"
 
-psql postgresql://postgres:postgres@localhost:5433/vinyl_store -c \
+psql postgresql://postgres:postgres@localhost:5433/pg_extension_fun -c \
     "CREATE TABLE vinyls ( \
         id SERIAL PRIMARY KEY, \
         title VARCHAR(255) NOT NULL, \
@@ -40,6 +44,6 @@ psql postgresql://postgres:postgres@localhost:5433/vinyl_store -c \
         genre VARCHAR(255) NOT NULL \
     )"
 
-psql postgresql://postgres:postgres@localhost:5433/vinyl_store -c \
+psql postgresql://postgres:postgres@localhost:5433/pg_extension_fun -c \
     "\copy vinyls(id, title, artist, year, duration_minutes, genre) \
     FROM 'vinyls.txt' (DELIMITER('|'));"

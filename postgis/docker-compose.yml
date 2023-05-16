@@ -2,7 +2,7 @@ version: '3.1'
 services:
 
   plain_old_postgres:
-    image: postgis/postgis:12-3.0
+    image: nickblah/postgis:latest
     container_name: postgis_fun
     restart: always
     environment:

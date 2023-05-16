@@ -50,8 +50,6 @@ ORDER BY count DESC;
 
 
 
-
-
 -- adding year in aggregation
 SELECT date_part('year', time) AS year, date_part('month', time) AS month, COUNT(1) AS count
 FROM hello_world_entries
@@ -90,7 +88,7 @@ ORDER BY count DESC;
 
 
 -- time bucket aggregation
-SELECT TIME_BUCKET('1 month', time) AS interval,
+SELECT TIME_BUCKET('15 month', time) AS interval,
     COUNT(1) AS count
 FROM hello_world_entries
 GROUP BY interval

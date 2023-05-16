@@ -2,7 +2,7 @@ version: '3.1'
 services:
 
   postgres_fdw_1:
-    image: postgis/postgis:12-3.0
+    image: nickblah/postgis:latest
     container_name: postgres_fdw_1
     restart: always
     environment:
@@ -13,7 +13,7 @@ services:
       - 5432:5432
 
   postgres_fdw_2:
-    image: postgis/postgis:12-3.0
+    image: nickblah/postgis:latest
     container_name: postgres_fdw_2
     restart: always
     environment:
