@@ -1,49 +1,9 @@
 -- Active: 1677054367051@@127.0.0.1@5432@pg_extension_fun
 -- Make sure database is selected
-/*
-                                                                                                                                                                        1) Earth is not a plane but a sphere
-                                                                                                                                                                        2) We don't account for the direction of the points
-                                                                                                                                                                        3) Latitude and longitude are not linear units and cannot be converted to meters (or kilometers) without a projection
-*/
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
--- calculate distance between two points
+-- calculate distance between two points, compare to https://www.distancefromto.net/
 WITH
 city1 AS (VALUES ('Tirana')),
 country1 AS (VALUES ('AL')),
@@ -144,6 +104,7 @@ WHERE ct1.geonameid != ct2.geonameid
 
 
 -- select other points close to point by amount of kilometers
+-- connect: postgresql://postgres:postgres@localhost:5432/pg_extension_fun
 WITH
 city AS (VALUES('Tirana')),
 country AS (VALUES('AL')),
@@ -202,6 +163,15 @@ ORDER BY name;
 
 ALTER TABLE geoname ADD COLUMN geolocation GEOGRAPHY(POINT, 4326);
 UPDATE geoname SET geolocation = ST_SetSRID(ST_MakePoint(longitude, latitude), 4326);
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,8 +1,12 @@
 version: '3.1'
 services:
 
+  # this is not the official PostGIS image since that one is built as x86_64 (Intel) only
+  # and I need it to run on arm64 on Apple Silicon
+
   plain_old_postgres:
     image: nickblah/postgis:latest
+    #image: postgis/postgis:latest
     container_name: postgis_fun
     restart: always
     environment:

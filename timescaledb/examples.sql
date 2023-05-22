@@ -1,4 +1,22 @@
--- Active: 1677054367051@@127.0.0.1@5432@hello_worlds@public
+-- Active: 1677054367051@@127.0.0.1@5432@pg_extension_fun@public
+
+
+SELECT COUNT(1)
+FROM hello_world_entries;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 -- normal aggregation by month
 SELECT date_part('month', time) AS month, COUNT(1) AS count
@@ -88,7 +106,8 @@ ORDER BY count DESC;
 
 
 -- time bucket aggregation
-SELECT TIME_BUCKET('15 month', time) AS interval,
+-- https://docs.timescale.com/api/latest/hyperfunctions/time_bucket/
+SELECT TIME_BUCKET('1 month', time) AS interval,
     COUNT(1) AS count
 FROM hello_world_entries
 GROUP BY interval
@@ -219,7 +238,7 @@ GROUP BY interval;
 
 
 -- most used in time bucket
-SELECT DISTINCT ON (TIME_BUCKET('1 year', time)) TIME_BUCKET('1 year', time) AS interval,
+SELECT DISTINCT ON (TIME_BUCKET('1 month', time)) TIME_BUCKET('1 month', time) AS interval,
     language, COUNT(1) AS total
 FROM hello_world_entries
 GROUP BY interval, language
