@@ -20,7 +20,7 @@ sql="INSERT INTO hello_world_entries (time, language) VALUES "
 languages=("C", "C++", "C#", "Java", "COBOL", "FORTRAN", "Smalltalk", "Python", "Ruby", "Perl", "PHP", "JavaScript", "TypeScript", "Go", "Rust", "Haskell", "Scala", "Clojure", "Erlang", "Elixir", "Kotlin", "Swift", "Objective-C", "R", "Julia", "Dart", "Lua", "SQL", "PL/SQL", "T-SQL", "Pascal", "Ada", "Lisp", "Scheme", "Prolog", "BASIC", "Visual Basic", "VBScript", "ActionScript", "Delphi", "RPG", "ABAP", "F#", "Groovy", "COBOL", "D", "Forth", "Fortran", "FoxPro", "LabVIEW", "Logo", "MATLAB", "ML", "Objective-C", "OCaml", "Pascal", "Perl", "PL/1", "PostScript", "RPG", "Ruby", "SAS", "Scratch", "Simula", "Smalltalk", "SQL", "Swift", "Tcl", "Visual Basic", "Visual FoxPro", "Wolfram", "Alpha", "ZPL", "ZPL2", "Z++", "Zeno", "ZetaLisp", "ZOPL", "Zsh", "ZPL", "ZPL2", "Z++", "Zeno", "ZetaLisp", "ZOPL", "Zsh", "ZPL", "ZPL2", "Z++", "Zeno", "ZetaLisp", "ZOPL", "Zsh", "ZPL", "ZPL2", "Z++", "Zeno", "ZetaLisp", "ZOPL", "Zsh", "ZPL", "ZPL2", "Z++", "Zeno", "ZetaLisp", "ZOPL", "Zsh", "ZPL", "ZPL2", "Z++", "Zeno", "ZetaLisp", "ZOPL", "Zsh", "ZPL", "ZPL2", "Z++", "Zeno", "ZetaLisp", "ZOPL", "Zsh", "ZPL", "ZPL2", "Z++", "Zeno", "ZetaLisp", "ZOPL", "Zsh")
 
 #randomly generate 10,000,000 rows
-for iteration in {1..10000}
+for iteration in {1..1000}
 do
     echo $iteration
     for i in {1..1000}
